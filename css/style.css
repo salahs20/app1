@@ -1,0 +1,356 @@
+#background-img {
+    background-image: url(../imgs/bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.head {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+}
+
+#anem .nimated::after {
+    content: '|';
+    animation: carer 8s alternate 0s infinite;
+    -webkit-animation: carer 8s alternate 0s infinite;
+    font-size: 30px;
+}
+
+@keyframes carer {
+    0% {
+        content: " |";
+    }
+
+    1.724% {
+        content: " l|";
+    }
+
+    3.448% {
+        content: " la|";
+    }
+
+    5.172% {
+        content: " lar|";
+    }
+
+    6.896% {
+        content: " larr|";
+    }
+
+    8.62% {
+        content: " larry |";
+    }
+
+    10.344% {
+        content: " larry d|";
+    }
+
+    12.068% {
+        content: " larry da|";
+    }
+
+    13.792% {
+        content: " larry dan|";
+    }
+
+    15.516% {
+        content: " larry dani|";
+    }
+
+    17.24% {
+        content: " larry danie|";
+    }
+
+    18.964% {
+        content: " larry daniel|";
+    }
+
+    20.688% {
+        content: " larry daniels|";
+    }
+
+    22.412% {
+        content: " larry daniel|";
+    }
+
+    24.136% {
+        content: " larry danie|";
+    }
+
+    25.86% {
+        content: " larry dani|";
+    }
+
+    27.584% {
+        content: " larry dan|";
+    }
+
+    29.308% {
+        content: " larry da|";
+    }
+
+    31.032% {
+        content: " larry d|";
+    }
+
+    32.756% {
+        content: " larry |";
+    }
+
+    34.48% {
+        content: " larr|";
+    }
+
+    36.204% {
+        content: " lar|";
+    }
+
+    37.928% {
+        content: " la|";
+    }
+
+    39.652% {
+        content: " l|";
+    }
+
+    41.376% {
+        content: " |";
+    }
+
+    43.1% {
+        content: " d|";
+    }
+
+    44.824% {
+        content: " de|";
+    }
+
+    46.548% {
+        content: " dev|";
+    }
+
+    48.272% {
+        content: " deve|";
+    }
+
+    49.996% {
+        content: " devel|";
+    }
+
+    51.72% {
+        content: " develo|";
+    }
+
+    52.994% {
+        content: " develop|";
+    }
+
+    54.718% {
+        content: " develope|";
+    }
+
+    55.992% {
+        content: " developer|";
+    }
+
+    57.716% {
+        content: " develope|";
+    }
+
+    59.44% {
+        content: " develop|";
+    }
+
+    61.164% {
+        content: " develo|";
+    }
+
+    62.888% {
+        content: " devel|";
+    }
+
+    64.612% {
+        content: " deve|";
+    }
+
+    66.336% {
+        content: " dev|";
+    }
+
+    68.06% {
+        content: " de|";
+    }
+
+    69.784% {
+        content: " d|";
+    }
+
+    71.508% {
+        content: " |";
+    }
+
+    73.232% {
+        content: " d|";
+    }
+
+    74.956% {
+        content: " de|";
+    }
+
+    76.68% {
+        content: " des|";
+    }
+
+    78.404% {
+        content: " desi|";
+    }
+
+    80.128% {
+        content: " desin|";
+    }
+
+    81.852% {
+        content: " desing|";
+    }
+
+    83.576% {
+        content: " desinge|";
+    }
+
+    85.3% {
+        content: " desinger|";
+    }
+
+    87.024% {
+        content: " desinge|";
+    }
+
+    88.748% {
+        content: " desing|";
+    }
+
+    90.472% {
+        content: " desin|";
+    }
+
+    92.196% {
+        content: " desi|";
+    }
+
+    93.92% {
+        content: " des|";
+    }
+
+    95.644% {
+        content: " de|";
+    }
+
+    97.368% {
+        content: " d|";
+    }
+
+    100% {
+        content: " |";
+    }
+}
+
+ul li a:hover {
+    font-weight: 500;
+    text-decoration: underline white solid;
+}
+
+.dot {
+    background-image: url(../imgs/images.png);
+    width: 25%;
+}
+
+#bt {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #03045e;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+}
+
+#bt::before,
+#bt::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#bt::before {
+    left: -10px;
+    background: #240046;
+}
+
+#bt::after {
+    right: -10px;
+    background: #5a189a;
+}
+
+#bt:hover::before,
+#bt:hover::after {
+    width: 58%;
+}
+
+#bt:hover span {
+    color: #e0aaff;
+    transition: 0.3s;
+}
+
+#bt span {
+    color: #03045e;
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+#icons {
+    width: 70px;
+    height: 70px;
+}
+
+#icons {
+    background-color: rgba(165, 161, 161, 0.634);
+}
+
+#icons:hover {
+    background-color: black;
+    color: azure;
+}
+
+#a a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+
+.w {
+    width: 100px;
+    height: 100px;
+}
+
+#vh {
+    height: 75vh;
+    background-color: rgba(247, 247, 247, 1);
+}
+
+#vh-25 {
+    height: 25vh;
+}
